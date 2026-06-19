@@ -4,10 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LUGX Store</title>
+    <style>
+        body{
+            margin: 0;
+        }
+
+        .header{
+            background-color: #ff3333;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 50px;
+        }
+
+        .logo{
+            width:100px;
+        }
+
+        .header-links a{
+            color:white;
+            padding:5px 15px;
+            text-decoration:none;
+            border-radius: 15px;
+        }
+
+        .header-links a:hover{
+            background-color: #ff6666;
+        }
+
+        .header-links button{
+            background-color: #3399ff;
+            color: white;
+            border: none;
+            border-radius: 15px;
+            padding: 5px 15px;
+        }
+
+        .header-links button:hover{
+            background-color: #66b3ff;
+        }
+
+    </style>
 </head>
 <body>
-    <div>
-        <img src="images/logo.png" alt="LUGX Logo"/>
+    <div class=" header ">
+        <img class="logo" src="images/logo.png" alt="LUGX Logo"/>
+        <div class="header-links">
+            <a href="index.html">Home</a>
+            <a href="#">Our Shop</a>
+            <a href="#">Contact</a>
+            <a href="">About</a>
+            <button>Sign In</button>
+        </div>
     </div>
+    
 </body>
 </html>
