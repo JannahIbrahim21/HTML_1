@@ -124,3 +124,27 @@ body {
   border-radius: 50px;
   margin: 30px 0;
 }
+
+.top-games-cards{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-card img{
+  border-radius: 25px;
+}
+
+.top-card-info{
+  width: 150px;
+  align-items: center;
+  padding: 20px 25px;
+}
+
+.top-card-info p{
+  margin-left:25px ;
+}
+
+.top-card-info button{
+  margin-left: 25px;
+}
