@@ -74,18 +74,21 @@ body {
 
 .cards-container {
   padding: 25px 50px;
+  margin: 70px 0px;
 }
 
 .cards-container span {
   color: #ff3333;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 14px ;
+  font-weight: bold;
 }
 
 .cards-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 30px;
 }
 
 .trending-header h1 {
@@ -147,4 +150,46 @@ body {
 
 .top-card-info button{
   margin-left: 25px;
+}
+
+.Categories-header{
+    padding-left: 700px;
+}
+
+.Categories-header span{
+  padding: 65px;
+  color: #ff3333;
+  font-weight: bold;
+}
+
+.Category-card{
+  background-color: #ff3333;
+  border-radius: 25px;
+  width: 235px;
+}
+
+.Category-card:hover{
+  transform: scale(1.1);
+}
+
+.Category-card img{
+  border-radius: 20px;
+ 
+}
+
+.Category-card img:hover{
+transform: scale(1);
+}
+
+.Category-card h3{
+  text-align: center;
+  color: white;
+  padding: 15px 0;
+  margin: 0;
+}
+
+.categories-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
