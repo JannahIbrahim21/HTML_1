@@ -193,3 +193,12 @@ transform: scale(1);
   align-items: center;
   justify-content: space-between;
 }
+
+.copyright-container{
+  background-color: #ff3333;
+  color: white;
+  display:flex;
+  border-radius: 50px 50px 0 0;
+  padding: 40px;
+  justify-content: center;
+}
